@@ -12,7 +12,9 @@
   ],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": [],
+  "words": [
+    "mypy"
+  ],
   "ignoreWords": [],
   "import": []
 }
