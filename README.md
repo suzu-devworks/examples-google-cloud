@@ -14,6 +14,10 @@ However, please note that the code described here is based on my personal opinio
 
 ## Example Projects
 
+### Console Applications
+
+- [examples-workspace-cli](./packages/examples-workspace-cli/README.md)
+
 ## More documents
 
 - [doc](./docs/README.md)
