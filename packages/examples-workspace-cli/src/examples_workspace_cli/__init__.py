@@ -1,2 +1,5 @@
+from .console import command
+
+
 def main() -> None:
-    print("Hello from examples-workspace-cli!")
+    command.main()
