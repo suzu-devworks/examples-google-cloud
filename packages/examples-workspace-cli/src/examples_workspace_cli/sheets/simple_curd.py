@@ -21,7 +21,7 @@ def _build_sheets_resource(credentials: Credentials) -> Resource:
 
 def _create_file(args: Namespace) -> str:
     title: str = args.title.strip()
-    parent_id: str = args.parent_id.strip() if args.parent_id else None
+    parent_id: str | None = args.parent_id.strip() if args.parent_id else None
 
     creds = get_credentials(args.auth_type, args.credential_file)
 
