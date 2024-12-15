@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "ignorePaths": [
+    ".devcontainer/",
+    ".vscode/",
+    ".*",
+    "**/.git/",
+    "**/*.lock",
+    "**/*.ini",
+    "**/*.toml"
+  ],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [],
+  "ignoreWords": [],
+  "import": []
+}
