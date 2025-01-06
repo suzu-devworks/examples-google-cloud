@@ -7,3 +7,10 @@ RUN set -x \
     && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg \
     && apt update -y \
     && apt install google-cloud-sdk -y
+
+# clean up
+RUN set -x \
+    && apt autoremove -y \
+    && apt clean -y \
+    && rm -rf /var/lib/apt/lists/* \
+    ;
