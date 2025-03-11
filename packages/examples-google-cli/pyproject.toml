@@ -3,21 +3,21 @@ authors = [
   { name = "A.suzuki", email = "suzu.devworks@gmail.com" },
 ]
 dependencies = [
-  "google-api-python-client>=2.155.0",
-  "google-apps-chat>=0.2.0",
+  "google-api-python-client>=2.163.0",
+  "google-apps-chat>=0.2.4",
   "google-auth-httplib2>=0.2.0",
   "google-auth-oauthlib>=1.2.1",
-  "gspread>=6.1.4",
+  "gspread>=6.2.0",
   "pyyaml>=6.0.2",
 ]
 description = "Add your description here"
 dynamic = ["version"]
-name = "examples-workspace-cli"
+name = "examples-google-cli"
 readme = "README.md"
 requires-python = ">=3.12"
 
 [project.scripts]
-examples-workspace-cli = "examples_workspace_cli:main"
+examples-google-cli = "examples_google_cli:main"
 
 [build-system]
 build-backend = "hatchling.build"
@@ -25,21 +25,20 @@ requires = ["hatchling"]
 
 [dependency-groups]
 dev = [
-  "pytest-asyncio>=0.25.0",
+  "pytest-asyncio>=0.25.3",
   "pytest-cov>=6.0.0",
-  "pytest>=8.3.4",
-  "types-pyyaml>=6.0.12.20240917",
+  "pytest>=8.3.5",
+  "types-pyyaml>=6.0.12.20241230",
 ]
 
 [tool.hatch.version]
-path = "src/examples_workspace_cli/__version__.py"
+path = "src/examples_google_cli/__version__.py"
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/examples_workspace_cli"]
-
+packages = ["src/examples_google_cli"]
 
 [[tool.mypy.overrides]]
 ignore_missing_imports = true

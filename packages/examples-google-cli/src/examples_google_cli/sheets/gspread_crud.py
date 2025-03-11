@@ -4,7 +4,7 @@ from logging import getLogger
 
 import gspread
 
-from examples_workspace_cli.auth.account_types import AccountTypes
+from examples_google_cli.auth.account_types import AccountTypes
 
 _logger = getLogger(__name__)
 

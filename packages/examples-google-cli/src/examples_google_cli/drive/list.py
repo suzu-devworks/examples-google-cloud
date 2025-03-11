@@ -3,7 +3,7 @@ from logging import getLogger
 from googleapiclient.discovery import Resource, build
 from googleapiclient.errors import HttpError
 
-from examples_workspace_cli.auth import Credentials
+from examples_google_cli.auth import Credentials
 
 logger = getLogger(__name__)
 
@@ -42,7 +42,7 @@ def list_items(
 
         logger.info("Files:")
         for item in items:
-            logger.info(f"  {item["name"]} ({item["id"]})")
+            logger.info(f"  {item['name']} ({item['id']})")
 
     except HttpError as error:
         # TODO(developer) - Handle errors from drive API.
