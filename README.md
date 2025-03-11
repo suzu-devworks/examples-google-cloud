@@ -7,7 +7,7 @@
 [![CI](https://github.com/suzu-devworks/examples-py-gcloud/actions/workflows/ci.yaml/badge.svg)](https://github.com/suzu-devworks/examples-py-gcloud/actions/workflows/ci.yaml)
 ![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzu-devworks%2Fexamples-py-gcloud%2Frefs%2Fheads%2Fmain%2Fpyproject.toml)
 
-A workspace for studying Python programming using gcloud.
+A workspace for studying Python programming using google cloud.
 
 ## What is this
 
@@ -20,7 +20,7 @@ However, please note that the code described here is based on my personal opinio
 
 ### Console Applications
 
-- [examples-workspace-cli](./packages/examples-workspace-cli/README.md)
+- [examples-google-cli](./packages/examples-google-cli/README.md)
 
 ## More documents
 

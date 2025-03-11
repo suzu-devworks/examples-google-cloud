@@ -4,8 +4,8 @@ from . import quickstart
 
 
 def _exec_list(args: Namespace) -> None:
-    from examples_workspace_cli.auth import get_credentials
-    from examples_workspace_cli.drive.list import list_items
+    from examples_google_cli.auth import get_credentials
+    from examples_google_cli.drive.list import list_items
 
     creds = get_credentials(args.auth_type, args.credential_file)
     list_items(creds, args.parent_id)

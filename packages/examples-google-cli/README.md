@@ -1,10 +1,10 @@
-# examples-workspace-cli
+# examples-google-cli
 
-This is an example of a client that uses Python to control Google Workspace.
+This is an example of a client that uses Python to control Google Cloud.
 
 ## Table of Contents <!-- omit in toc -->
 
-- [examples-workspace-cli](#examples-workspace-cli)
+- [examples-google-cli](#examples-google-cli)
   - [Examples](#examples)
     - [Getting started](#getting-started)
     - [Google Workspace apps for Python](#google-workspace-apps-for-python)
@@ -24,24 +24,24 @@ This is an example of a client that uses Python to control Google Workspace.
 Install dependency packages and install myself locally:
 
 ```shell
-uv sync --project packages/examples-workspace-cli
+uv sync --project packages/examples-google-cli
 ```
 
 Show help command:
 
 ```shell
-examples-workspace-cli -h
+examples-google-cli -h
 ```
 
 ### Google Workspace apps for Python
 
-- [`auth` - Google Auth](./src/examples_workspace_cli/auth/README.md)
-- [`drive` - Google Drive API example](./src/examples_workspace_cli/drive/README.md)
-- [`docs` - Google Docs API example](./src/examples_workspace_cli/docs/README.md)
-- [`sheets` - Google Sheets API example](./src/examples_workspace_cli/sheets/README.md)
-- [`calendar` - Google Calendar API example](./src/examples_workspace_cli/calendar/README.md)
-- [`chat` - Google Chat API example](./src/examples_workspace_cli/chat/README.md)
-- [`gmail` - Google Gmail API example](./src/examples_workspace_cli/gmail/README.md)
+- [`auth` - Google Auth](./src/examples_google_cli/auth/README.md)
+- [`drive` - Google Drive API example](./src/examples_google_cli/drive/README.md)
+- [`docs` - Google Docs API example](./src/examples_google_cli/docs/README.md)
+- [`sheets` - Google Sheets API example](./src/examples_google_cli/sheets/README.md)
+- [`calendar` - Google Calendar API example](./src/examples_google_cli/calendar/README.md)
+- [`chat` - Google Chat API example](./src/examples_google_cli/chat/README.md)
+- [`gmail` - Google Gmail API example](./src/examples_google_cli/gmail/README.md)
 
 ## Learn more
 
@@ -130,12 +130,12 @@ gcloud auth application-default login --client-id-file=/workspaces/examples-py-g
 This project was initialized with the following command:
 
 ```shell
-uv init --package packages/examples-workspace-cli
-uv add --project packages/examples-workspace-cli --dev pytest pytest-asyncio pytest-cov
-uv add --project packages/examples-workspace-cli pyyaml
-uv add --project packages/examples-workspace-cli --dev types-PyYAML
+uv init --package packages/examples-google-cli
+uv add --project packages/examples-google-cli --dev pytest pytest-asyncio pytest-cov
+uv add --project packages/examples-google-cli pyyaml
+uv add --project packages/examples-google-cli --dev types-PyYAML
 
-uv add --project packages/examples-workspace-cli google-api-python-client google-auth-httplib2 google-auth-oauthlib
-uv add --project packages/examples-workspace-cli google-apps-chat
-uv add --project packages/examples-workspace-cli gspread
+uv add --project packages/examples-google-cli google-api-python-client google-auth-httplib2 google-auth-oauthlib
+uv add --project packages/examples-google-cli google-apps-chat
+uv add --project packages/examples-google-cli gspread
 ```
