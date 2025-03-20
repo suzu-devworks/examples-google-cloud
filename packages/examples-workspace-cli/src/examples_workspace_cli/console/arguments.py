@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 
-from examples_google_cli.__version__ import __version__
+from examples_workspace_cli.__version__ import __version__
 
 
 def configure_arguments(parser: ArgumentParser) -> None:

@@ -3,7 +3,7 @@ from logging import getLogger
 from googleapiclient.discovery import Resource, build
 from googleapiclient.errors import HttpError
 
-from examples_google_cli.auth import Credentials
+from examples_workspace_cli.auth import Credentials
 
 logger = getLogger(__name__)
 

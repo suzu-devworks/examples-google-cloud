@@ -2,7 +2,7 @@ from argparse import ArgumentParser, Namespace, RawTextHelpFormatter
 from logging import getLogger
 from logging.config import dictConfig
 
-from examples_google_cli.resources import get_logging_resource
+from examples_workspace_cli.resources import get_logging_resource
 
 from .arguments import configure_arguments
 
@@ -18,32 +18,32 @@ def _parse_arguments() -> Namespace:
     configure_arguments(parser)
 
     # auth
-    from examples_google_cli.auth import configure_arguments as configure_auth
+    from examples_workspace_cli.auth import configure_arguments as configure_auth
 
     configure_auth(parser)
 
     subparsers = parser.add_subparsers()
 
     # drive
-    from examples_google_cli.drive import configure_arguments as configure_drive
+    from examples_workspace_cli.drive import configure_arguments as configure_drive
 
     drive_parser = subparsers.add_parser("drive", help="Google Drive API example")
     configure_drive(drive_parser)
 
     # docs
-    from examples_google_cli.docs import configure_arguments as configure_docs
+    from examples_workspace_cli.docs import configure_arguments as configure_docs
 
     docs_parser = subparsers.add_parser("docs", help="Google Docs API example")
     configure_docs(docs_parser)
 
     # sheets
-    from examples_google_cli.sheets import configure_arguments as configure_sheets
+    from examples_workspace_cli.sheets import configure_arguments as configure_sheets
 
     sheets_parser = subparsers.add_parser("sheets", help="Google Sheets API example")
     configure_sheets(sheets_parser)
 
     # calendar
-    from examples_google_cli.calendar import (
+    from examples_workspace_cli.calendar import (
         configure_arguments as configure_calendar,
     )
 
@@ -51,13 +51,13 @@ def _parse_arguments() -> Namespace:
     configure_calendar(calendar_parser)
 
     # chat
-    from examples_google_cli.chat import configure_arguments as configure_chat
+    from examples_workspace_cli.chat import configure_arguments as configure_chat
 
     chat_parser = subparsers.add_parser("chat", help="Google Chat API example")
     configure_chat(chat_parser)
 
     # gmail
-    from examples_google_cli.gmail import configure_arguments as configure_gmail
+    from examples_workspace_cli.gmail import configure_arguments as configure_gmail
 
     gmail_parser = subparsers.add_parser("gmail", help="Google Gmail API example")
     configure_gmail(gmail_parser)
