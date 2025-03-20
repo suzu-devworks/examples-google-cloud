@@ -6,9 +6,13 @@
   "service": "dev",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "remoteEnv": {
-    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
     "UV_LINK_MODE": "copy"
   },
-  "postCreateCommand": "/bin/sh ./.devcontainer/postCreateCommand.sh",
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "features": {
+    "ghcr.io/dhoeric/features/google-cloud-cli:1": {
+      "installGkeGcloudAuthPlugin": true
+    },
+    "ghcr.io/jsburckhardt/devcontainer-features/uv:1": {}
+  }
 }

@@ -6,7 +6,7 @@ from typing import Any
 from googleapiclient.discovery import Resource, build
 from googleapiclient.errors import HttpError
 
-from examples_google_cli.auth import Credentials, get_credentials
+from examples_workspace_cli.auth import Credentials, get_credentials
 
 logger = getLogger(__name__)
 
