@@ -1,18 +1,22 @@
 {
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[markdown]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.markdownlint": "explicit"
     },
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit"
     },
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
@@ -31,7 +35,7 @@
     "!**/node_modules",
     "!**/vendor",
     "!**/.git",
-    "!**/.venv",
+    "!**/.venv"
   ],
   "mypy-type-checker.args": [],
   "python.analysis.autoFormatStrings": false,
@@ -39,11 +43,6 @@
   "python.terminal.activateEnvironment": true,
   "python.testing.autoTestDiscoverOnSaveEnabled": false,
   "python.testing.pytestEnabled": true,
-  "ruff.format.args": [
-    "--config=.ruff.toml"
-  ],
-  "ruff.lint.args": [
-    "--config=.ruff.toml"
-  ],
+  "ruff.configuration": "${workspaceFolder}/.ruff.toml",
   "terminal.integrated.environmentChangesRelaunch": true
 }
