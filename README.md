@@ -7,20 +7,17 @@
 [![CI](https://github.com/suzu-devworks/examples-google-cloud/actions/workflows/ci.yaml/badge.svg)](https://github.com/suzu-devworks/examples-google-cloud/actions/workflows/ci.yaml)
 [![CodeQL](https://github.com/suzu-devworks/examples-google-cloud/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/suzu-devworks/examples-google-cloud/actions/workflows/github-code-scanning/codeql)
 
-A workspace for learning to program with Google Cloud.
-
-## What is this
+## What is the purpose of this repository?
 
 This repository is the author's personal playground for learning Google Cloud Programming and experimenting with its features. It may be useful for developers who have the same problem.
 
 However, please note that the code described here is based on my personal opinion and may contain many inaccuracies.
 
-## Example Projects
+## Project Index
 
-### Examples with python
-
-- [examples-workspace-cli](./packages/examples-workspace-cli/README.md)
+- Examples with Python
+  - [examples-workspace-cli](./packages/examples-workspace-cli/README.md)
 
 ## More documents
 
-- [doc](./docs/README.md)
+- [See here ...](./docs/README.md)
