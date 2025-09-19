@@ -1,9 +1,11 @@
 {
   "version": "0.2",
   "ignorePaths": [
-    ".devcontainer/",
-    ".vscode/",
-    ".*",
+    ".git",
+    ".devcontainer",
+    ".config",
+    ".github",
+    ".vscode",
     "**/.git/",
     "**/*.lock",
     "**/*.ini",

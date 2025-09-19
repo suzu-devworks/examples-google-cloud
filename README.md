@@ -9,7 +9,7 @@
 
 ## What is the purpose of this repository?
 
-This repository is the author's personal playground for learning Google Cloud Programming and experimenting with its features. 
+This repository is the author's personal playground for learning Google Cloud Programming and experimenting with its features.
 
 The content here may be useful to other developers who have the same problem.
 
@@ -19,7 +19,3 @@ However, please note that the code described here is based on my personal opinio
 
 - Examples with Python
   - [examples-workspace-cli](./packages/examples-workspace-cli/README.md)
-
-## More documents
-
-- [See here ...](./docs/README.md)
