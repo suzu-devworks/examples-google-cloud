@@ -8,18 +8,17 @@ This is an example client program that uses Python to control the Google Workspa
 
 ## Table of Contents <!-- omit in toc -->
 
-- [examples-workspace-cli](#examples-workspace-cli)
-  - [Examples](#examples)
-    - [Getting started](#getting-started)
-    - [Google Workspace apps for Python](#google-workspace-apps-for-python)
-  - [Learn more](#learn-more)
-  - [Configure Google Cloud API](#configure-google-cloud-api)
-    - [Enable APIs](#enable-apis)
-    - [When use service account (silent login)](#when-use-service-account-silent-login)
-    - [When use user account (OAuth login)](#when-use-user-account-oauth-login)
-  - [User credentials provided by using the gcloud CLI(OPTIONAL)](#user-credentials-provided-by-using-the-gcloud-clioptional)
-  - [Development](#development)
-    - [How the project was initialized](#how-the-project-was-initialized)
+- [Examples](#examples)
+  - [Getting started](#getting-started)
+  - [Google Workspace apps for Python](#google-workspace-apps-for-python)
+- [Learn more](#learn-more)
+- [Configure Google Cloud API](#configure-google-cloud-api)
+  - [Enable APIs](#enable-apis)
+  - [When using service account (silent login)](#when-using-service-account-silent-login)
+  - [When using user account (OAuth login)](#when-using-user-account-oauth-login)
+- [User credentials provided by using the gcloud CLI (OPTIONAL)](#user-credentials-provided-by-using-the-gcloud-cli-optional)
+- [Development](#development)
+  - [How the project was initialized](#how-the-project-was-initialized)
 
 ## Examples
 
@@ -68,7 +67,7 @@ Goto google cloud console:
    - [Google Chat API]
    - [Gmail API]
 
-### When use service account (silent login)
+### When using service account (silent login)
 
 1. IAM and Admin > Service Accounts > CREATE SERVICE ACCOUNT
    > - Service account details:  
@@ -76,14 +75,14 @@ Goto google cloud console:
    > - Grant this service account access to project:  
    >   Select Editor role.
    > - DONE
-2. select created service account
-3. service account > KEYS > ADD KEY(Create new key)
+2. Select created service account
+3. Service account > KEYS > ADD KEY (Create new key)
    > - type(JSON) > Create
-4. json file will be downloaded automatically.
+4. JSON file will be downloaded automatically.
 5. Rename the file to `service_account.json` and add it to your project
 6. _Grant permissions for Google services to service accounts_
 
-### When use user account (OAuth login)
+### When using user account (OAuth login)
 
 1. APIs & Services > OAuth consent screen
    > - User type: External > create
@@ -96,10 +95,10 @@ Goto google cloud console:
 2. Credentials > CREATE CREDENTIALS > OAuth client ID
    > - Select Application Type: Desktop app
    > - CREATE
-3. Download json file.
+3. Download JSON file.
 4. Rename the file to `credentials.json` and add it to your project
 
-## User credentials provided by using the gcloud CLI(OPTIONAL)
+## User credentials provided by using the gcloud CLI (OPTIONAL)
 
 Download gcloud CLI:
 
@@ -139,7 +138,7 @@ cd packages/examples-workspace-cli
 uv add --dev pytest pytest-asyncio pytest-cov
 uv add pyyaml
 uv add --dev types-PyYAML
-uv addgoogle-api-python-client google-auth-httplib2 google-auth-oauthlib
+uv add google-api-python-client google-auth-httplib2 google-auth-oauthlib
 uv add google-apps-chat
 uv add gspread
 cd ..
