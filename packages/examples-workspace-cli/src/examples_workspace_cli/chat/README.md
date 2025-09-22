@@ -2,11 +2,10 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [`chat` - Google Chat API example](#chat---google-chat-api-example)
-  - [examples](#examples)
-    - [`quickstart`](#quickstart)
+- [Examples](#examples)
+  - [`quickstart`](#quickstart)
 
-## examples
+## Examples
 
 ### `quickstart`
 

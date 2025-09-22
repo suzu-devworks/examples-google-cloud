@@ -2,11 +2,10 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [`docs` - Google Docs API example](#docs---google-docs-api-example)
-  - [examples](#examples)
-    - [`quickstart`](#quickstart)
+- [Examples](#examples)
+  - [`quickstart`](#quickstart)
 
-## examples
+## Examples
 
 ### `quickstart`
 

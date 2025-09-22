@@ -9,13 +9,13 @@
 
 ## What is the purpose of this repository?
 
-This repository is the author's personal playground for learning Google Cloud Programming and experimenting with its features.
+This repository is a personal practice space for the author to learn and experiment with programming using Google Cloud Platform and Workspace.
 
 The content here may be useful to other developers who have the same problem.
 
 However, please note that the code described here is based on my personal opinion and may contain many inaccuracies.
 
-## Project Index
+## Index
 
-- Examples with Python
+- Google Workspace app with Python
   - [examples-workspace-cli](./packages/examples-workspace-cli/README.md)

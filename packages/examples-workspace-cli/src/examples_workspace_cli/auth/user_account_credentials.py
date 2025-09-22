@@ -34,7 +34,7 @@ def get_credentials(file_name: str, scopes: list[str]) -> credentials.Credential
 
             # Save the credentials for the next run
             with open(token_cache, "w") as token:
-                token.write(creds.to_json())  # type: ignore[no-untyped-call]
+                token.write(creds.to_json())
 
     _logger.debug(creds)
     return creds

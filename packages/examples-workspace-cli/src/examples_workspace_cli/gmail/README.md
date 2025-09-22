@@ -2,11 +2,10 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [`gmail` - Google Gmail API example](#gmail---google-gmail-api-example)
-  - [examples](#examples)
-    - [`quickstart`](#quickstart)
+- [Examples](#examples)
+  - [`quickstart`](#quickstart)
 
-## examples
+## Examples
 
 ### `quickstart`
 
