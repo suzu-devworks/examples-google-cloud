@@ -9,7 +9,7 @@
 
 ## What is the purpose of this repository?
 
-This repository is the author's personal playground for learning Google Cloud Programming and experimenting with its features.
+This repository is a personal practice space for the author to learn and experiment with programming using Google Cloud Platform and Workspace.
 
 The content here may be useful to other developers who have the same problem.
 
