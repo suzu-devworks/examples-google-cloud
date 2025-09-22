@@ -2,11 +2,10 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [`calendar` - Google Calendar API example](#calendar---google-calendar-api-example)
-  - [examples](#examples)
-    - [`quickstart`](#quickstart)
+- [Examples](#examples)
+  - [`quickstart`](#quickstart)
 
-## examples
+## Examples
 
 ### `quickstart`
 

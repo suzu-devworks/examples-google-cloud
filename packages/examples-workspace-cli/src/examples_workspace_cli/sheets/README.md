@@ -2,13 +2,12 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [`sheets` - Google Sheets API example](#sheets---google-sheets-api-example)
-  - [examples](#examples)
-    - [`quickstart`](#quickstart)
-    - [`simple`](#simple)
-    - [`gspread`](#gspread)
+- [Examples](#examples)
+  - [`quickstart`](#quickstart)
+  - [`simple`](#simple)
+  - [`gspread`](#gspread)
 
-## examples
+## Examples
 
 ### `quickstart`
 

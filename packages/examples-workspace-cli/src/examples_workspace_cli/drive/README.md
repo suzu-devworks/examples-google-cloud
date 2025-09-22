@@ -2,12 +2,11 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [`drive` - Google Drive API example](#drive---google-drive-api-example)
-  - [examples](#examples)
-    - [`quickstart`](#quickstart)
-    - [`list`](#list)
+- [Examples](#examples)
+  - [`quickstart`](#quickstart)
+  - [`list`](#list)
 
-## examples
+## Examples
 
 ### `quickstart`
 
