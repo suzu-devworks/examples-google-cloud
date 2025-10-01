@@ -15,7 +15,7 @@ The content here may be useful to other developers who have the same problem.
 
 However, please note that the code described here is based on my personal opinion and may contain many inaccuracies.
 
-## Index
+## Examples
 
 - Google Workspace app with Python
   - [examples-workspace-cli](./packages/examples-workspace-cli/README.md)
